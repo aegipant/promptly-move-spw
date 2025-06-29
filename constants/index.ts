@@ -4,14 +4,17 @@ export const fatsvg =
 export const features = [
   {
     title: "裝修存倉‼️",
+    imagepath: "/saving.jpeg",
     description: "",
   },
   {
     title: "存倉服務‼️",
+    imagepath: "/furniture.jpeg",
     description: "",
   },
   {
     title: "冷氣倉🥶",
+    imagepath: "/furniture.jpeg",
     description: "",
   },
 ];
@@ -19,14 +22,14 @@ export const features = [
 export const steps = [
   {
     title: "Pack箱",
-    imagepath: "/pmLogo.png",
+    imagepath: "/furniture.jpeg",
   },
   {
     title: "搬屋",
-    imagepath: "/pmLogo.png",
+    imagepath: "/packing.jpeg",
   },
   {
     title: "傢俬裝拆",
-    imagepath:"/pmLogo.png",
+    imagepath:"/moving.jpeg",
   },
 ];
