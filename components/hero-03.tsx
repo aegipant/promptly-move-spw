@@ -9,9 +9,6 @@ const Hero03 = () => {
   return (
     <div className="text-center min-h-3/4 w-full flex flex-col gap-10 items-center justify-center px-6 py-16 bg-primary">
       <div className="text-center max-w-3xl">
-        <Badge className="bg-gradient-to-br via-70% from-primary via-muted/30 to-primary rounded-full py-1 border-none">
-          Just released v1.0.0
-        </Badge>
         <h1 className="mt-6 text-3xl sm:text-4xl md:text-6xl font-bold !leading-[1.2] tracking-tight">
           請找即到，我地即刻就到！
         </h1>
