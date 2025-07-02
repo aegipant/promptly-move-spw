@@ -6,11 +6,11 @@
 @theme inline {
   --color-primary: #C9528F;
   --color-ig: #E1306C;
-  --color-ig-hover: #e75989;
+  --color-ig-hover: #e4447a;
   --color-ws: #25d366;
-  --color-ws-hover: #50db84;
+  --color-ws-hover: #3ad775;
   --color-fb: #4267B2;
-  --color-fb-hover: #6785c1;
+  --color-fb-hover: #5476b9;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
