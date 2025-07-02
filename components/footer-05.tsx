@@ -23,13 +23,13 @@ const Footer05Page = () => {
             </span>
 
             <div className="flex items-center gap-5 text-primary">
-              <Link href="#" target="_blank">
+              <Link href="https://www.facebook.com/promptlymovemove/" target="_blank">
                 <FaFacebook className="h-8 w-8" />
               </Link>
-              <Link href="#" target="_blank">
+              <Link href="https://www.instagram.com/PROMPTLYMOVE/" target="_blank">
                 <FaInstagram className="h-8 w-8" />
               </Link>
-              <Link href="#" target="_blank">
+              <Link href="http://wa.me/85254635464" target="_blank">
                 <FaWhatsapp className="h-8 w-8" />
               </Link>
             </div>
