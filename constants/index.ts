@@ -8,13 +8,13 @@ export const features = [
     description: "",
   },
   {
-    title: "存倉服務‼️",
-    imagepath: "/furniture.jpeg",
+    title: "上門存倉盒",
+    imagepath: "/storagebox.jpg",
     description: "",
   },
   {
     title: "冷氣倉🥶",
-    imagepath: "/furniture.jpeg",
+    imagepath: "/aircon_storage.jpg",
     description: "",
   },
 ];
@@ -22,7 +22,7 @@ export const features = [
 export const steps = [
   {
     title: "Pack箱",
-    imagepath: "/furniture.jpeg",
+    imagepath:"/moving.jpeg",
   },
   {
     title: "搬屋",
@@ -30,6 +30,6 @@ export const steps = [
   },
   {
     title: "傢俬裝拆",
-    imagepath:"/moving.jpeg",
+    imagepath: "/furniture.jpeg",
   },
 ];
