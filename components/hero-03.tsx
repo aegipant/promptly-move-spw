@@ -13,7 +13,7 @@ const Hero03 = () => {
         </p>
       </div>
        <div className="mt-6 flex items-center justify-center gap-4">
-        <a href="https://wa.me/your-phone-number" target="_blank" rel="noopener noreferrer">
+        <a href="http://wa.me/85254635464" target="_blank" rel="noopener noreferrer">
           <Button
             variant="outline"
             size="lg"
@@ -23,7 +23,7 @@ const Hero03 = () => {
             <FaWhatsapp className="!h-5 !w-5 text-green-500" /> 免費報價
           </Button>
         </a>
-        <a href="https://www.facebook.com/your-page" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/promptlymovemove/" target="_blank" rel="noopener noreferrer">
           <Button
             variant="outline"
             size="lg"

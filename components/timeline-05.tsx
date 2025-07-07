@@ -9,8 +9,8 @@ export default function Timeline() {
           搬屋都可以舒舒服服坐係度吾駛郁
         </h2>
       </div>
-    <div className="min-h-1/2 flex flex-col items-center justify-center min-w-screen-full mx-auto py-12 md:py-20 px-6">
-      <div className="flex flex-col ml-6">
+    <div className="min-h-1/2 flex flex-col md:flex-row items-center justify-center min-w-screen-full mx-auto py-12 md:py-20 px-6">
+      <div className="flex flex-col md:flex-row ml-6">
         {/* Timeline line */}
         <div className="flex left-0 inset-y-0" />
 
