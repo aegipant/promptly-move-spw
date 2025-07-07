@@ -10,7 +10,7 @@ const Footer05Page = () => {
         <div className="max-w-screen-xl mx-auto">
           <div className="py-12 flex flex-col justify-start items-center">
             <Image src="/pmLogo.png" alt="" width={300} height={300} />
-            <div className="text-black mt-4 text-center">
+            <div className="w-3/4 text-black mt-4 text-center">
               即到搬屋 | 即到有限公司 | 搬屋,搬office,裝修存倉,儲存盒,棄置傢俬,村屋,居屋,公屋,住宅 | Promptly Move
             </div>
           </div>
