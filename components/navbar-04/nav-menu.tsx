@@ -22,7 +22,12 @@ export const NavMenu = (props: NavigationMenuProps) => (
       </NavigationMenuItem>
       <NavigationMenuItem>
         <NavigationMenuLink>
-          <Link href="#section2Features">聯絡我們</Link>
+          <Link href="#section4Features">存倉優點</Link>
+        </NavigationMenuLink>
+      </NavigationMenuItem>
+      <NavigationMenuItem>
+        <NavigationMenuLink>
+          <Link href="#section5Social">聯絡我們</Link>
         </NavigationMenuLink>
       </NavigationMenuItem>
     </NavigationMenuList>
