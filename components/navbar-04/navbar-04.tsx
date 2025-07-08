@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Logo } from "./logo";
 import { NavMenu } from "./nav-menu";
-import { NavigationSheet } from "./navigation-sheet";
+import MobileMenu from "@/components/navbar-04/mobile-nav-menu";
 
 const Navbar04Page = () => {
   return (
@@ -15,10 +15,12 @@ const Navbar04Page = () => {
           <NavMenu className="hidden md:block" />
 
           <div className="flex items-center gap-3">
-            <Link target="_blank" href="http://wa.me/85254635464" ><Button className="rounded-full text-md">立即報價</Button></Link>
+            <Link target="_blank" href="http://wa.me/85254635464">
+              <Button className="rounded-full text-md">立即報價</Button>
+            </Link>
             {/* Mobile Menu */}
             <div className="md:hidden">
-              <NavigationSheet />
+              <MobileMenu />
             </div>
           </div>
         </div>
