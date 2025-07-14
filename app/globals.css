@@ -5,6 +5,12 @@
 
 @theme inline {
   --color-primary: #C9528F;
+  --color-ig: #E1306C;
+  --color-ig-hover: #e4447a;
+  --color-ws: #25d366;
+  --color-ws-hover: #3ad775;
+  --color-fb: #4267B2;
+  --color-fb-hover: #5476b9;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);

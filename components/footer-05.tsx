@@ -1,5 +1,5 @@
 import { Separator } from "@/components/ui/separator";
-import { FaFacebook, FaInstagram, FaWhatsapp} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -10,6 +10,9 @@ const Footer05Page = () => {
         <div className="max-w-screen-xl mx-auto">
           <div className="py-12 flex flex-col justify-start items-center">
             <Image src="/pmLogo.png" alt="" width={300} height={300} />
+            <div className="w-3/4 text-black mt-4 text-center">
+              即到搬屋 | 即到有限公司 | 搬屋,搬office,裝修存倉,儲存盒,棄置傢俬,村屋,居屋,公屋,住宅 | Promptly Move
+            </div>
           </div>
           <Separator />
           <div className="py-8 flex flex-col-reverse sm:flex-row items-center justify-between gap-x-2 gap-y-5 px-6 xl:px-0">
@@ -23,13 +26,13 @@ const Footer05Page = () => {
             </span>
 
             <div className="flex items-center gap-5 text-primary">
-              <Link href="#" target="_blank">
+              <Link href="https://www.facebook.com/promptlymovemove/" target="_blank">
                 <FaFacebook className="h-8 w-8" />
               </Link>
-              <Link href="#" target="_blank">
+              <Link href="https://www.instagram.com/PROMPTLYMOVE/" target="_blank">
                 <FaInstagram className="h-8 w-8" />
               </Link>
-              <Link href="#" target="_blank">
+              <Link href="http://wa.me/85254635464" target="_blank">
                 <FaWhatsapp className="h-8 w-8" />
               </Link>
             </div>

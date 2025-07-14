@@ -2,12 +2,12 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Logo } from "./logo";
 import { NavMenu } from "./nav-menu";
-import { NavigationSheet } from "./navigation-sheet";
+import MobileMenu from "@/components/navbar-04/mobile-nav-menu";
 
 const Navbar04Page = () => {
   return (
     <div className="min-h-screen bg-muted">
-      <nav className="fixed top-6 inset-x-4 h-16 bg-background border dark:border-slate-700/70 max-w-screen-xl mx-auto rounded-full">
+      <nav className="fixed top-6 inset-x-4 h-16 z-20 bg-background border dark:border-slate-700/70 max-w-screen-xl mx-auto rounded-full">
         <div className="h-full flex items-center justify-between mx-auto px-4">
           <Logo />
 
@@ -15,10 +15,12 @@ const Navbar04Page = () => {
           <NavMenu className="hidden md:block" />
 
           <div className="flex items-center gap-3">
-            <Link target="_blank" href="http://wa.me/85254635464" ><Button className="rounded-full text-md">立即報價</Button></Link>
+            <Link target="_blank" href="http://wa.me/85254635464">
+              <Button className="rounded-full text-md">立即報價</Button>
+            </Link>
             {/* Mobile Menu */}
             <div className="md:hidden">
-              <NavigationSheet />
+              <MobileMenu />
             </div>
           </div>
         </div>
